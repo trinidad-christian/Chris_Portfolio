@@ -1,5 +1,5 @@
 # Chris_Portfolio
-General Cybersecurity Portfolio
+General Security Portfolio
 
 # Project 1 : Windows Security Monitoring Lab | Microsoft Azure, Microsoft Sentinet, KQL
 •	Deployed a Windows VM in Azure and configured a data collection rule to send Windows security events through Azure Monitor Agent to a Log Analytics workspace linked to Microsoft Sentinel.
