@@ -1,5 +1,3 @@
-jekyll-theme-minimal
-
 # Chris_Portfolio
 General Cybersecurity Portfolio
 
