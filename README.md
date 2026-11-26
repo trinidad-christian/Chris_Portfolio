@@ -6,11 +6,9 @@ General Portfolio
 
 •	Reviewed Windows Security logs on our log analytics workspace and queried the SecurityEvent table using Kusto Query Language(KQL) to filter for the Administrator account and select relevant fields.
 
-`
-SecurityEvent
+`SecurityEvent
 |where Account = "\\Administrator"
-|project TimeGenreted, Account, Computer, EventID, Activity, IpAddress
-`
+|project TimeGenreted, Account, Computer, EventID, Activity, IpAddress`
 
 •	Configured a Sentinel workbook using a GeoIP watchlist and provided a query to map failed sign-ins (Event ID 4625) by source IP location and show the number of attempts from each location.
 
